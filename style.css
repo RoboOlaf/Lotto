@@ -1,0 +1,54 @@
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    font-size: 50px;
+}
+
+div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+}
+
+#reset {
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+    background-color: orange;
+    border-color: orange;
+    transition-duration: 0.4s;
+}
+
+#reset:hover {
+    background-color: orangered;
+}
+
+.buton {
+    transition-duration: 0.4s;
+}
+.buton:hover {
+    background-color: black;
+    border-color: orange;
+}
